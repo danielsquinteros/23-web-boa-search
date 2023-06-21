@@ -16,7 +16,7 @@ const Card = (props) => {
             <li className="list-group-item">{props.date_of_birth}</li>
         </ul>
         <div className="card-body">
-            <NavLink className="card-link" to={`user/${props.id}`}>Ver más</NavLink>
+            <NavLink className="card-link" to={`${props.name}`}>Ver más</NavLink>
     </div>
     </div>
   )
